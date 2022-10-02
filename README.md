@@ -4,6 +4,8 @@ Fake News Detection as a Service, built with the State-Of-The-Art User Preferenc
 ## Product Description
 Here we harness the power of Graph Neural Networks (GNNs) for solving the problem of Fake News Detection. We utilise information regarding both the spread of fake news over twitter via propogation graphs and the user preferences via past tweets to make a prediction about the veracity of a web article.
 
+![alt text](https://github.com/DChops/PayBack/blob/main/Graph.png?raw=true)
+
 ## Usage
 
 ### WebApp
