@@ -1,6 +1,17 @@
 # PayBack
 Fake News Detection as a Service, built with the State-Of-The-Art User Preference Aware GNNs
 
+## Product Description
+Here we harness the power of Graph Neural Networks (GNNs) for solving the problem of Fake News Detection. We utilise information regarding both the spread of fake news over twitter via propogation graphs and the user preferences via past tweets to make a prediction about the veracity of a web article.
+
+## Usage
+
+### WebApp
+You can acceess the free online webapp at :
+
+### API
+For developers seeking an endpoint for classifying articles as real or fake using their Web URLS, use the API endpoint as follows:
+
 ## Datasets
 We utilised the Politifact & Gossicop Datasets available publicly using the UPFD() class in pytorch_geometric.datasets.
 
