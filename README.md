@@ -13,6 +13,7 @@ You can acceess the free online webapp at :
 
 ### API
 For developers seeking an endpoint for classifying articles as real or fake using their Web URLS, use the API endpoint as follows:
+- http://www.delphipayback.com/
 
 ## Datasets
 We utilised the Politifact & Gossicop Datasets available publicly using the UPFD() class in pytorch_geometric.datasets.
