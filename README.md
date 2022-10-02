@@ -10,6 +10,12 @@ A brief summary of the datasets is as follows:
 | Politifact | 314   |   157    |  41,054  | 40,740 |  131 |
 | Gossipcop |  5464  |   2732   |  314,262  | 308,798  |  58  |
 
+Both Politfact & Gossicop are graph-based datasets curated by Yingtong et al using the data in FakeNewsNet at https://github.com/KaiDMML/FakeNewsNet
+
+<a href="https://www.politifact.com">Politifact</a>: A website which labels political news articles as real or fake
+<a href="https://www.suggest.com">Gossicop</a>  : A website which labels celebrity news articles as real or fake
+
+
 ## Research Papers Referenced
 <ul>
   <li> Yingtong Dou et al., "User Preference Aware Fake News Detection", July 2021, Retrieved via: https://arxiv.org/abs/2104.12259
