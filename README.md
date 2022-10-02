@@ -9,7 +9,7 @@ Here we harness the power of Graph Neural Networks (GNNs) for solving the proble
 ## Usage
 
 ### WebApp
-You can acceess the free online webapp at :
+You can acceess the free online webapp at : http://paybackdelphi.pythonanywhere.com/
 
 ### API
 For developers seeking an endpoint for classifying articles as real or fake using their Web URLS, use the API endpoint as follows:
