@@ -20,11 +20,11 @@ class Graph:
     """
 
     def __init__(self, url=None):
-        self.consumer_key = "a8OXOJWynh9rdupWIz4u4yXiX"
-        self.consumer_secret = "xxvtVPrNX9e3ht5tJGF5r8RzSJpUIDrE7nBFdNYi5huIxmLoac"
-        self.access_token_key = "1437716485263093764-XgwefPBHn3W0pTToNrx9LpXDHaAixE"
-        self.access_token_secret = "D7FVKXCEQ2ueCJC6oQSjwpAiLcrIqs2rmqjYfIoN4tcmq"
-        self.bearer_token = "AAAAAAAAAAAAAAAAAAAAAP7nTgEAAAAAV2izN%2BsbYebB%2FC3HfrfrbX7JEeg%3DAckELjH4YxdSdenfhODgmILBB4HVU332D4lRTOwZo1zOfY39XH"
+        self.consumer_key = "xxxxxxx"
+        self.consumer_secret = "xxxxxxx"
+        self.access_token_key = "xxxxxxx-xxxxxxx"
+        self.access_token_secret = "xxxxxxx"
+        self.bearer_token = "xxxxxxxxxxxxxxxxxxxxx"
         auth = tweepy.OAuthHandler(self.consumer_key, self.consumer_secret)
         auth.set_access_token(self.access_token_key, self.access_token_secret)
         self.api = tweepy.API(auth, wait_on_rate_limit=True)
@@ -348,17 +348,14 @@ class Graph:
 
         brief_dict = {}
 
-        # cookie = 'guest_id_marketing=v1:166448182424211327; guest_id_ads=v1:166448182424211327; gt=1575577088194592768; _ga=GA1.2.1322751509.1664481826; _gid=GA1.2.1850438018.1664481826; kdt=Oye4T2yX5clOFZIFPgFdgUVY7UoZ1AhccanFIF3L; att=1-sCtcJBPEjceE3r146kgYEkq2DbshYItu3clP80MN; dnt=1; personalization_id="v1_4oByeCnZoFX0jguGeGEyug=="; guest_id=v1:166448424814529225; auth_token=54bda34a3b02648f06316abb0c5333a46b737984; ct0=c7ae7274dc75e5a6f63f05e0b0eceedd1a34cb868dcda39046cce5e1c23872e655d2bee448ecafb8c25d71709c8d80856edeb1af1725c161f51c4838ba3bd1f4acfad12454ffcebb7184bb6b9ea740b7; twid=u=1575587860031635456; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoHaWQiJTAyNjc4ZTMxYjc3ZjY5Mjc5OWMwMWYy%0AMGQ5M2M1ZTg0Og9jcmVhdGVkX2F0bCsIAXMDi4MBOgxjc3JmX2lkIiU2MWQy%0AZDQwZmY4ZjFmYzRlODU4MWNmYjhhOTAwYjM0Mg%3D%3D--85c265db37af7c18f9c75df21c92dfc8911a0666; external_referer=padhuUp37zj9xuUOXCNFvJEaPb7vKkpn|0|8e8t2xd8A2w='
         # Here Paste Your Twitter Cookie
-        cookie = 'guest_id_marketing=v1:166448182424211327; guest_id_ads=v1:166448182424211327; gt=1575577088194592768; _ga=GA1.2.1322751509.1664481826; _gid=GA1.2.1850438018.1664481826; kdt=Oye4T2yX5clOFZIFPgFdgUVY7UoZ1AhccanFIF3L; att=1-sCtcJBPEjceE3r146kgYEkq2DbshYItu3clP80MN; dnt=1; personalization_id="v1_4oByeCnZoFX0jguGeGEyug=="; guest_id=v1:166448424814529225; auth_token=54bda34a3b02648f06316abb0c5333a46b737984; ct0=c7ae7274dc75e5a6f63f05e0b0eceedd1a34cb868dcda39046cce5e1c23872e655d2bee448ecafb8c25d71709c8d80856edeb1af1725c161f51c4838ba3bd1f4acfad12454ffcebb7184bb6b9ea740b7; twid=u=1575587860031635456; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7ADoHaWQiJTAyNjc4ZTMxYjc3ZjY5Mjc5OWMwMWYy%0AMGQ5M2M1ZTg0Og9jcmVhdGVkX2F0bCsIAXMDi4MBOgxjc3JmX2lkIiU2MWQy%0AZDQwZmY4ZjFmYzRlODU4MWNmYjhhOTAwYjM0Mg%3D%3D--85c265db37af7c18f9c75df21c92dfc8911a0666; external_referer=padhuUp37zj9xuUOXCNFvJEaPb7vKkpn|0|8e8t2xd8A2w=; _gat=1'
+        cookie = 'xxxxxxx'
 
-        # authorization = 'Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs=1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA'
         # Here Paste your Authoriaztion Token
-        authorization = "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs=1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"
+        authorization = "xxxxxxx"
 
-        # csrf_token = 'c7ae7274dc75e5a6f63f05e0b0eceedd1a34cb868dcda39046cce5e1c23872e655d2bee448ecafb8c25d71709c8d80856edeb1af1725c161f51c4838ba3bd1f4acfad12454ffcebb7184bb6b9ea740b7'
         # Here Paste your CSRF Token
-        csrf_token = "c7ae7274dc75e5a6f63f05e0b0eceedd1a34cb868dcda39046cce5e1c23872e655d2bee448ecafb8c25d71709c8d80856edeb1af1725c161f51c4838ba3bd1f4acfad12454ffcebb7184bb6b9ea740b7"
+        csrf_token = "xxxxxxx"
 
         # Check Documentation to find out how to get his values.
 
@@ -399,7 +396,6 @@ class Graph:
                 ][index + 1]["entries"]
 
                 for i in range(0, len(userInfo) - 2):
-                    # brief_dict["screen_name"] = str(userInfo[i]["content"]["itemContent"]["user"]["legacy"]["screen_name"])
                     brief_dict["id"] = str(
                         userInfo[i]["content"]["itemContent"]["user"]["rest_id"]
                     )

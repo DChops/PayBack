@@ -34,11 +34,11 @@ from sklearn.feature_extraction.text import CountVectorizer
 class Encoder:
   def __init__(self):
     # Pratham's API Keys (top secret)
-    self.consumer_key = "a8OXOJWynh9rdupWIz4u4yXiX"
-    self.consumer_secret = "xxvtVPrNX9e3ht5tJGF5r8RzSJpUIDrE7nBFdNYi5huIxmLoac"
-    self.access_token_key = "1437716485263093764-XgwefPBHn3W0pTToNrx9LpXDHaAixE"
-    self.access_token_secret = "D7FVKXCEQ2ueCJC6oQSjwpAiLcrIqs2rmqjYfIoN4tcmq"
-    self.bearer_token = "AAAAAAAAAAAAAAAAAAAAAP7nTgEAAAAAV2izN%2BsbYebB%2FC3HfrfrbX7JEeg%3DAckELjH4YxdSdenfhODgmILBB4HVU332D4lRTOwZo1zOfY39XH"
+    self.consumer_key = "xxxxxxx"
+    self.consumer_secret = "xxxxxxx"
+    self.access_token_key = "xxxxxxx"
+    self.access_token_secret = "xxxxxxx"
+    self.bearer_token = "xxxxxxx"
     auth = tweepy.OAuthHandler(self.consumer_key, self.consumer_secret)
     auth.set_access_token(self.access_token_key, self.access_token_secret)
     self.api = tweepy.API(auth, wait_on_rate_limit=True)
