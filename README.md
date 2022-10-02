@@ -12,7 +12,7 @@ A brief summary of the datasets is as follows:
 
 Both Politfact & Gossicop are graph-based datasets curated by Yingtong et al. at https://github.com/safe-graph/GNN-FakeNews/blob/main using the data in FakeNewsNet at https://github.com/KaiDMML/FakeNewsNet
 
-<a href="https://www.politifact.com">Politifact</a>.                 : A website that labels political news articles as real or fake
+<a href="https://www.politifact.com">Politifact</a>: A website that labels political news articles as real or fake
 
 <a href="https://www.suggest.com">Gossicop</a>(Renamed to Suggest): A website that labels celebrity news articles as real or fake
 
